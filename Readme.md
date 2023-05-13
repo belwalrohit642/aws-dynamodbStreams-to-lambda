@@ -1,4 +1,5 @@
 **AWS dynamoDB Streams to lambda**
+
 This code is a Python implementation of an AWS Lambda function that listens for DynamoDB stream events and processes them based on their event type (INSERT, MODIFY, or REMOVE).
 
 The lambda_handler function is the main entry point for the Lambda function. It receives the event parameter, which is a dictionary containing information about the DynamoDB stream event, and the context parameter, which is a dictionary containing information about the Lambda execution environment.
